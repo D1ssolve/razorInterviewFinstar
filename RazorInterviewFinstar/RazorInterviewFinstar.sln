@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorInterviewFinstar", "RazorInterviewFinstar\RazorInterviewFinstar.csproj", "{38386199-F5E5-483C-9CAD-1D9EA17977AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorInterviewFinstar", "RazorInterviewFinstar\RazorInterviewFinstar.csproj", "{38386199-F5E5-483C-9CAD-1D9EA17977AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
