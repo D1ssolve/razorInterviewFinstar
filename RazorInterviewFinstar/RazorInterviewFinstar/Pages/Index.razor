@@ -22,20 +22,20 @@
         <div class="col">
             @if (@account is not null && account.status != 6)
             {
-                <p>@account.data.First().contact_id</p>
-                <p>@account.data.First().first_name</p>
-                <p>@account.data.First().hash_campaign</p>
-                <p>@account.data.First().hash_password</p>
-                <p>@account.data.First().last_name</p>
-                <p>@account.data.First().middle_name</p>
+                <p class="alert-success">@account.data.First().contact_id</p>
+                <p class="alert-success">@account.data.First().first_name</p>
+                <p class="alert-success">@account.data.First().hash_campaign</p>
+                <p class="alert-success">@account.data.First().hash_password</p>
+                <p class="alert-success">@account.data.First().last_name</p>
+                <p class="alert-success">@account.data.First().middle_name</p>
             }
             else if (account is not null && account.status == 6)
             {
-                <p>@account.description</p>
+                <p class="alert-warning">@account.description</p>
             }
             else
             {
-                <p>Number not found</p>
+                <p class="alert-warning">Number not found</p>
             }
         </div>
     </div>
