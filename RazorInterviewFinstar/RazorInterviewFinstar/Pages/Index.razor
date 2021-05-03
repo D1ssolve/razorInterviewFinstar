@@ -17,10 +17,11 @@
             <button class="btn btn-success" @onclick="SendRequest">Get info</button>
         </div>
     </div>
+    <br />
     <div class="row">
         <div class="col">
             @if (@account is not null && account.status != 6)
-            {   <p></p>
+            {
                 <p>@account.data.First().contact_id</p>
                 <p>@account.data.First().first_name</p>
                 <p>@account.data.First().hash_campaign</p>
@@ -28,7 +29,7 @@
                 <p>@account.data.First().last_name</p>
                 <p>@account.data.First().middle_name</p>
             }
-            else if(account is not null && account.status == 6)
+            else if (account is not null && account.status == 6)
             {
                 <p>@account.description</p>
             }
